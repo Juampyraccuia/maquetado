@@ -1,0 +1,173 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+
+/* inicio home */
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(231, 231, 231);
+}
+
+header {
+    background-color: #5c0099;
+    padding: 1em 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+}
+
+nav {
+    background-color: #ff9000;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: #ffd399;
+    color: black;
+}
+
+.menu nav img {
+    display: none;
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+/* fin home */
+
+
+/* inicio noticias */
+
+h2 {
+    color: coral;
+}
+
+.noticia {
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: scroll;
+    width: 950px;
+    height: 200px;
+}
+
+.noticia .info {
+    width: 75%;
+}
+
+.noticia .info h4 {
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+
+.noticia .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.noticia img {
+    border-radius: 0.8em;
+}
+
+.noticia:nth-child(even) img {
+    /* par */
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.noticia:nth-child(even) .info {
+    float: left;
+}
+
+.noticia:nth-child(odd) img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.noticia:nth-child(odd) .info {
+    float: right;
+}
+
+
+/* fin noticias */
+
+
+/* inicio organizaciones */
+
+.card-text {
+    font-size: 15px;
+}
+
+
+/* fin organizaciones */
+
+
+/* inicio concursos */
+
+
+/* fin concursos */
+
+
+/* inicio galeria */
+
+
+/* fin galeria */
+
+
+/* inicio contacto */
+
+
+/* fin contacto */
+
+
+/* Haciendo la pagina responsive */
